@@ -13,7 +13,7 @@ function Hero() {
         <div className="hero-actions">
           <a
             className="btn btn-primary"
-            href="https://github.com/"
+            href="https://github.com/karagon-dev"
             target="_blank"
             rel="noreferrer"
           >
@@ -21,7 +21,7 @@ function Hero() {
           </a>
           <a
             className="btn btn-secondary"
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/karagon-dev/"
             target="_blank"
             rel="noreferrer"
           >
