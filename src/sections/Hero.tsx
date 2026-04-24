@@ -2,12 +2,15 @@ function Hero() {
   return (
     <section id="hero" className="hero">
       <div className="container hero-content">
-        <p className="eyebrow">Software Engineer</p>
-        <h1>Hi, I&apos;m Kenny Aragón.</h1>
+        <p className="eyebrow">Kenny Aragón | Software Engineer</p>
+
+        <h1>I build real business software.</h1>
+
         <p className="hero-text">
-          I build modern web applications with React, TypeScript, .NET, and SQL,
-          with a strong focus on backend logic, clean structure, and real
-          business solutions.
+          Software Engineer with hands-on experience developing enterprise
+          applications using .NET, C#, SQL Server, React, and TypeScript.
+          Currently focused on backend systems, APIs, databases, and scalable
+          solutions that support real operations.
         </p>
 
         <div className="hero-actions">
@@ -19,6 +22,7 @@ function Hero() {
           >
             GitHub
           </a>
+
           <a
             className="btn btn-secondary"
             href="https://www.linkedin.com/in/karagon-dev/"
@@ -26,6 +30,15 @@ function Hero() {
             rel="noreferrer"
           >
             LinkedIn
+          </a>
+
+          <a
+            className="btn btn-secondary"
+            href="/kenny-aragon-resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
           </a>
         </div>
       </div>

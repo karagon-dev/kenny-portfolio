@@ -33,7 +33,27 @@ function Skills() {
               <li>Azure DevOps</li>
               <li>Git</li>
               <li>Swagger</li>
-              <li>xUnit / Vitest</li>
+              <li>xUnit</li>
+            </ul>
+          </div>
+
+          <div className="card">
+            <h3>Practices</h3>
+            <ul>
+              <li>CI/CD</li>
+              <li>Agile Methodologies</li>
+              <li>DevOps</li>
+              <li>Debugging</li>
+            </ul>
+          </div>
+
+          <div className="card">
+            <h3>Business Strengths</h3>
+            <ul>
+              <li>Leadership</li>
+              <li>Communication</li>
+              <li>Ownership</li>
+              <li>Troubleshooting</li>
             </ul>
           </div>
         </div>
