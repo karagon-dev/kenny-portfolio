@@ -6,28 +6,62 @@ function Projects() {
 
         <div className="projects-grid">
           <article className="card project-card">
-            <h3>Personal Portfolio</h3>
+            <p className="eyebrow">Featured Project</p>
+            <h3>Personal Brand Platform</h3>
             <p>
-              A modern personal website built with React and TypeScript to
-              showcase my experience, skills, and future projects.
+              Designed and developed this portfolio as a production-ready
+              personal brand platform using React, TypeScript, Azure Static Web
+              Apps, GitHub Actions, and a custom domain.
             </p>
+
+            <p>
+              The project includes cloud hosting through Azure, DNS mapping from
+              Porkbun to Azure, custom domain configuration, and an automated
+              deployment pipeline that publishes updates every time new changes
+              are merged into the main branch.
+            </p>
+
+            <div className="project-tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Azure</span>
+              <span>GitHub Actions</span>
+              <span>DNS</span>
+              <span>CI/CD</span>
+            </div>
           </article>
 
           <article className="card project-card">
-            <h3>Full-Stack Business Apps</h3>
+            <h3>Full-Stack Business Applications</h3>
             <p>
-              Experience working on internal business applications involving
-              APIs, SQL stored procedures, frontend forms, reporting, and system
-              improvements.
+              Hands-on experience working on enterprise internal applications
+              involving .NET APIs, SQL Server stored procedures, React forms,
+              reporting features, and end-to-end business workflow improvements.
             </p>
+
+            <div className="project-tags">
+              <span>.NET</span>
+              <span>C#</span>
+              <span>SQL Server</span>
+              <span>React</span>
+              <span>TypeScript</span>
+            </div>
           </article>
 
           <article className="card project-card">
-            <h3>More Coming Soon</h3>
+            <h3>Backend & Database Projects</h3>
             <p>
-              I am currently building new portfolio projects focused on backend
-              services, databases, and real-world workflows.
+              Currently building new portfolio projects focused on backend
+              services, database design, API development, automation, and
+              real-world operational workflows.
             </p>
+
+            <div className="project-tags">
+              <span>APIs</span>
+              <span>Databases</span>
+              <span>Automation</span>
+              <span>Clean Architecture</span>
+            </div>
           </article>
         </div>
       </div>
