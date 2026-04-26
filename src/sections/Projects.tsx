@@ -6,7 +6,7 @@ function Projects() {
 
         <div className="projects-grid">
           <article className="card project-card">
-            <p className="eyebrow">Featured Project</p>
+            <p className="eyebrow">Personal Website</p>
             <h3>Personal Brand Platform</h3>
             <p>
               Designed and developed this portfolio as a production-ready
@@ -29,31 +29,58 @@ function Projects() {
               <span>DNS</span>
               <span>CI/CD</span>
             </div>
+
+            <a
+              href="https://github.com/karagon-dev/kenny-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project →
+            </a>
           </article>
 
           <article className="card project-card">
-            <h3>Full-Stack Business Applications</h3>
+            <p className="eyebrow">Workplace Productivity</p>
+            <h3>Real-Time Note Assistance</h3>
             <p>
-              Hands-on experience working on enterprise internal applications
-              involving .NET APIs, SQL Server stored procedures, React forms,
-              reporting features, and end-to-end business workflow improvements.
+              Built a desktop productivity tool for a high-pressure
+              interpretation environment where speed and accuracy are critical
+              between live calls. Designed to reduce dead time between calls by
+              giving agents a faster workflow for note management, number
+              recognition, quick-access vocabulary tabs, abbreviation
+              replacement, and instant translation support. Beyond the technical
+              implementation, the project improved efficiency, reduced friction
+              during stressful shifts, and helped create a smoother daily
+              operation for users handling back-to-back calls.
             </p>
 
             <div className="project-tags">
-              <span>.NET</span>
-              <span>C#</span>
-              <span>SQL Server</span>
-              <span>React</span>
-              <span>TypeScript</span>
+              <span>VB.NET</span>
+              <span>WinForms</span>
+              <span>Desktop App</span>
+              <span>Productivity</span>
+              <span>API Integration</span>
             </div>
+
+            <a
+              href="https://github.com/karagon-dev/NotetakingApp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project →
+            </a>
           </article>
 
           <article className="card project-card">
-            <h3>Backend & Database Projects</h3>
+            <p className="eyebrow">In Progress</p>
+            <h3>Full-Stack Projects</h3>
             <p>
               Currently building new portfolio projects focused on backend
               services, database design, API development, automation, and
               real-world operational workflows.
+              Staying tuned ;)
             </p>
 
             <div className="project-tags">
