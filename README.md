@@ -1,4 +1,4 @@
-# 🚀 Kenny Portfolio
+# Kenny Portfolio
 
 ![React](https://img.shields.io/badge/React-20232A?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
@@ -9,7 +9,7 @@ Personal portfolio website built with **React**, **TypeScript**, and **Vite** to
 
 ## 🌐 Live Demo
 
-Coming soon...
+https://kennyaragon.dev/
 
 ## 🛠 Tech Stack
 
@@ -18,16 +18,6 @@ Coming soon...
 - ⚡ Vite
 - 🎨 CSS
 - 🧩 Component-Based Architecture
-
-## ✨ Features
-
-- Responsive modern design
-- Smooth navigation
-- About Me section
-- Skills showcase
-- Projects section
-- Contact links
-- Fast development with Vite
 
 ## 📂 Project Structure
 
@@ -63,13 +53,10 @@ npm run dev
 ## 📌 Future Improvements
 
 - Dark / Light theme toggle
-- Multi-language support
-- Project detail pages
 - Animations
 - Blog section
-- Downloadable resume
 
-## 👨‍💻 Author
+## Author
 
 **Kenny Aragon**
 
