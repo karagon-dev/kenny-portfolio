@@ -299,3 +299,39 @@ a {
   transform: translateX(4px);
   opacity: 0.85;
 }
+
+.projects-carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1rem;
+}
+
+.project-card {
+  min-width: 360px;
+  max-width: 420px;
+  scroll-snap-align: start;
+}
+
+.projects-carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.projects-carousel::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+}
+
+@media (max-width: 768px) {
+  .projects-carousel {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow-x: visible;
+  }
+
+  .project-card {
+    min-width: 0;
+    max-width: none;
+  }
+}
